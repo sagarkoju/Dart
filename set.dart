@@ -1,0 +1,15 @@
+void main() {
+  var list = {1, 3, 4, 5, 6};
+  print(list);
+  // Intersection between two sets
+
+  var list1 = {1, 2, 3, 4, 5};
+  var list2 = {4, 5, 6, 7, 8};
+
+  var intersection = list1.intersection(list2);
+  print(intersection);
+
+  // union between two sets
+  var union = list1.union(list2);
+  print(union);
+}
