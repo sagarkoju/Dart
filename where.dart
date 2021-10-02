@@ -13,6 +13,15 @@ void main() {
 
   final ss = filtersLetterStartWithS.map((e) => e.name).toList();
   print(ss);
+
+  List<String> person = ["sagar", "sanam", "sumitra", "kir", "so"];
+  Iterable<String> p = person.where(
+      (e) => e.contains('a')); // to check if the string contains a in the list
+  print(p);
+  List<int> numeber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  numeber.where((e) => e % 2 == 0).forEach((e) => print(e));
+  Iterable<int> num = numeber.where((e) => e % 2 == 0).toList(); // to check the even number in the list
+  print(num);
 }
 
 class Person {

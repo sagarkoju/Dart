@@ -1,5 +1,8 @@
 void main() {
   var list = [1, 2, 3, 4, 5];
+
+  list.insert(3, 55); // insert 5 at index 3 // place any value at any index
+  print(list);
   // print(list);
   // to show the index of the list from begining
   print(list[0]);
