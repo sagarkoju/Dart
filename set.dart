@@ -12,4 +12,13 @@ void main() {
   // union between two sets
   var union = list1.union(list2);
   print(union);
+
+  List<int> list3 = [1, 2, 3, 4, 5, 5, 3, 4, 5, 6, 7, 8, 9, 10];
+  List<int> num = list3.toSet().toList();
+  print(
+      num); // the toset method  will remove the duplicate values that are present in the list
+
+  print([
+    ...{...list3}
+  ]);
 }

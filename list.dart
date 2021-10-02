@@ -30,4 +30,8 @@ void main() {
     index++;
     print(index);
   });
+
+  print(list.removeLast()); // remove the last element from the list
+  list.sort(); // sort the list
+  print(list);
 }
