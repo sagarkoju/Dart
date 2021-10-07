@@ -25,4 +25,12 @@ void main() {
   // reove key value pair
   num.remove(2);
   print(num);
+
+  // using map constructor
+ 
+   var details = new Map(); 
+   details['Usrname'] = 'admin'; 
+   details['Password'] = 'admin@123'; 
+   print(details); 
+
 }
