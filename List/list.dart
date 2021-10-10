@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 void main() {
   var list = [1, 2, 3, 4, 5];
 
@@ -34,4 +36,6 @@ void main() {
   print(list.removeLast()); // remove the last element from the list
   list.sort(); // sort the list
   print(list);
+
+  
 }
