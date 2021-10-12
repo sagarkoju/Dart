@@ -1,7 +1,7 @@
 void main() {
   myfunc(int x, {int? a, int? b}) {
     // positional and name parameter argurment
-    print(a! + b!);
+    print((a as int) + (b as int)); // as int implict downcast
     print("X = $x");
   }
 
