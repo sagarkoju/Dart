@@ -26,3 +26,5 @@ String type(name e) {
       return "Fifth";
   }
 }
+
+///forEach()	Iterate through and applies function to each key-value pair of the map.

@@ -1,7 +1,7 @@
 void main() {
   var obj = new GrandSon();
-  obj.getvalue(5000);
-  obj.dis();
+  obj..getvalue(5000)
+  ..dis();
 }
 
 // parent class

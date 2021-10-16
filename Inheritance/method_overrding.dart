@@ -1,7 +1,7 @@
 void main() {
   var obj = new Father();
-  obj.dis();
-  obj.dis1('Sagar', 'KOju');
+  obj..dis()
+  ..dis1('Sagar', 'KOju');
 }
 
 class Parent {

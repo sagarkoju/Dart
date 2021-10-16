@@ -1,11 +1,11 @@
 void main() {
   var s_obj = new Son();
-  s_obj.getvalue(5000);
-  s_obj.dis();
+  s_obj..getvalue(5000)
+  ..dis();
 
   var g_obj = new GrandSon();
-  g_obj.getvalue(1000);
-  g_obj.dis();
+  g_obj..getvalue(1000)
+  ..dis();
 }
 
 // parent class

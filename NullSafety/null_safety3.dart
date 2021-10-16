@@ -1,7 +1,7 @@
 void main() {
   Car car = new Car();
-  car.accelaration(40);
-  car.breakS(50);
+  car..accelaration(40)
+  ..breakS(50);
   // print(car);
 }
 

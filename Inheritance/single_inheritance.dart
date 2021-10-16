@@ -1,7 +1,7 @@
 void main() {
   var obj = new Son();
-  obj.getvalue(1000);
-  obj.disp();
+  obj..getvalue(1000)
+  ..disp();
 }
 
 // parent class / super class
