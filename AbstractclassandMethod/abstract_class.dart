@@ -21,3 +21,5 @@ class Family extends Parents {
     print('Hello');
   }
 }
+//Abstract classes are the classes in Dart that has one or more abstract method.
+//Abstract methods are those methods, which are declared without implementation.

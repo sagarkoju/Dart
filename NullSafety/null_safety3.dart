@@ -1,6 +1,11 @@
 void main() {
-  Car car = new Car();
+  var car = new Car();
   car..accelaration(40)
+  ..breakS(50);
+
+  /// or we can use
+   var car1 = new Car()
+  ..accelaration(40)
   ..breakS(50);
   // print(car);
 }

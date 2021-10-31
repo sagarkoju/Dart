@@ -32,4 +32,31 @@ void main() {
     ..setA(10)
     ..setB(15)
     ..showVal();
+
+  /// case 2
+  ///
+  List<int> list = [1, 3, 4];
+  list.sort();
+  list = list.reversed.toList();
+  list.addAll([5, 6, 7]);
+  list.sort();
+  list = list.map((e) => e + 1).toList();
+  print(list);
+
+  List<int> list1 = (([1, 3, 4]..sort()).reversed.toList()
+        ..addAll([5, 6, 7])
+        ..sort())
+      .map((f) => f + 1)
+      .toList();
+
+  print(list1);
+
+  List<int> list3 = [1, 3, 4]
+    ..sort()
+    ..reversed.toList()
+    ..addAll([5, 6, 7])
+    ..sort()
+    ..map((f) => f + 1).toList();
+
+  print(list3);
 }
