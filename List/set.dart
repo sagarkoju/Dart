@@ -22,4 +22,10 @@ void main() {
   print([
     ...{...list3}
   ]);
+
+  List<int> numbers = [1,2,1,3,3,5,4,5];
+
+var seenint = Set<String>();
+List<int> uniquenum = numbers.where((numone) => seenint.add(numone.toString())).toList();
+print(uniquenum);
 }

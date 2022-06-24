@@ -16,13 +16,13 @@ void main() {
     "sagar",
     true
   ]; // here no nullable type is object
-  List<Object?> sss = [3, 3, 4, 5, 9.4, "sagar", true, null];
+  // List<Object?> sss = [3, 3, 4, 5, 9.4, "sagar", true, null];
 
-  var intvalue = sss[0] as int;
+  // var intvalue = sss[0] as int;
 
-  List<int>? a = [1, 2, 3];
-  List<int?> c = [1, 3, 4, null];
-  List<int?>? d = [1, 3, 4, null];
+  // List<int>? a = [1, 2, 3];
+  // List<int?> c = [1, 3, 4, null];
+  // List<int?>? d = [1, 3, 4, null];
 
   bool sale = true;
   var salemenu = [

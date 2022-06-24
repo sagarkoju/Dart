@@ -4,33 +4,32 @@ void main() {
 
   var result = name.map((e) => 'I love $e');
   print(result);
-  print(result.toList());
+  // print(result.toList());
 
-  var set = {'1', '3', '4'};
-  print(set);
-  // Adding key value pair
-  var num = Map<int, String>();
-  num[1] = 'One';
-  num[2] = 'Two';
-  num[3] = 'Three';
-  print(num);
-  // check if key is present
-  print(num.containsKey(2));
-  // retreive all keys
-  var allnum = num.keys.toList();
-  print("key $allnum");
-  // retreive all values
-  var allvalues = num.values.toList();
-  print("value $allvalues");
-  // reove key value pair
-  num.remove(2);
-  print(num);
+  // var set = {'1', '3', '4'};
+  // print(set);
+  // // Adding key value pair
+  // var num = Map<int, String>();
+  // num[1] = 'One';
+  // num[2] = 'Two';
+  // num[3] = 'Three';
+  // print(num);
+  // // check if key is present
+  // print(num.containsKey(2));
+  // // retreive all keys
+  // var allnum = num.keys.toList();
+  // print("key $allnum");
+  // // retreive all values
+  // var allvalues = num.values.toList();
+  // print("value $allvalues");
+  // // reove key value pair
+  // num.remove(2);
+  // print(num);
 
-  // using map constructor
- 
-   var details = new Map(); 
-   details['Usrname'] = 'admin'; 
-   details['Password'] = 'admin@123'; 
-   print(details); 
+  // // using map constructor
 
+  //  var details = new Map();
+  //  details['Usrname'] = 'admin';
+  //  details['Password'] = 'admin@123';
+  //  print(details);
 }
